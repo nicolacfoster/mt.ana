@@ -1,4 +1,11 @@
 
+#############################################################################
+#
+# PROJECT: SR1 SYSTEMATIC REVIEW
+# AUTHOR: NICOLA FOSTER, LSHTM
+# LAST UPDATED: 19 April 2024
+#
+#############################################################################
 
 install.packages("ggplot2")
 install.packages("readxl")
