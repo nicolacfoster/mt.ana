@@ -4,10 +4,7 @@ cd "/Users/"
 	local suffix: display %tdCCYY-NN-DD =daily("`c(current_date)'", "DMY")
 	log using "log/log-`suffix'.smcl", replace
 
-* Loads data
-import excel using "/Users/XXX.xlsx", sheet("XXX") firstrow
-	save "/Users/XXX.dta", replace
-	clear
+* Load data
 
 
 * Generates an author-year
@@ -63,8 +60,6 @@ gen _ES_logit = invlogit(_ES)
 doiplot _ES_logit _seES, dp
 
 
-
-save "/Users/XXX.dta", replace
 
 *******************************************************************************
 
