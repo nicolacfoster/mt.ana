@@ -1,4 +1,11 @@
 
+#############################################################################
+#
+# PROJECT: SR1 SYSTEMATIC REVIEW
+# AUTHOR: NICOLA FOSTER, LSHTM
+# LAST UPDATED: 27 MARCH 2024
+#
+#############################################################################
 
 cd "/Users/"
 	local suffix: display %tdCCYY-NN-DD =daily("`c(current_date)'", "DMY")
